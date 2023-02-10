@@ -128,9 +128,8 @@ USE_TZ = True
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-if not DEBUG:
- CSRF_TRUSTED_ORIGINS = ['https://web-production-3848.up.railway.app']
- 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-3848.up.railway.app']
+
 
 
 # Static files (CSS, JavaScript, Images)
